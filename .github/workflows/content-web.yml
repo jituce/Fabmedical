@@ -8,7 +8,7 @@ on:
     paths:
     - 'content-web/**'
 
-  # Configure workflow to also support triggering manually
+# Configure workflow to also support triggering manually
   workflow_dispatch:
     inputs:
       logLevel:
